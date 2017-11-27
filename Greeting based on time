@@ -1,0 +1,14 @@
+//Check if it works
+
+var today = new Date()
+var currentTime = today.getHours()
+
+if (currentTime < 12) {
+  console.log('Good morning!')
+} else if (currentTime < 18) {
+  console.log('Good afternoon!')
+} else {
+  console.log('Good evening!')
+}
+
+//Adding it to a page:
