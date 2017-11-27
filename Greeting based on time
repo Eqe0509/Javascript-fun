@@ -2,13 +2,28 @@
 
 var today = new Date()
 var currentTime = today.getHours()
+var greeting;
 
 if (currentTime < 12) {
-  console.log('Good morning!')
+  greeting = 'Good morning!';
 } else if (currentTime < 18) {
-  console.log('Good afternoon!')
+  greeting = 'Good afternoon!';
 } else {
-  console.log('Good evening!')
+  greeting = 'Good evening!';
 }
 
 //Adding it to a page:
+//The only difference is in line 29.
+var today = new Date();
+var currentTime = today.getHours();
+var greeting;
+
+if (currentTime < 12) {
+  greeting = 'Good morning!';
+} else if (currentTime < 18) {
+  greeting = 'Good afternoon!';
+} else {
+  greeting = 'Good evening!';
+}
+
+document.write('<h4>' + greeting + '</h4>');
