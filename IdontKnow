@@ -1,15 +1,15 @@
-
 (function r() {
   setTimeout(r, Math.random() * 10);
-  let el = document.createElement("div");
-  el.innerHTML = ``;
-  el.style.position = `absolute`;
-  el.style.zIndex = 999999;
-  el.style.fontSize = (((Math.random() * 48) | 0) + 16) + `px`;
-  el.style.left = ((Math.random() * innerWidth) | 0) + `px`;
-  el.style.top = ((Math.random() * (innerHeight + pageYOffset)) | 0) + `px`;
-  document.body.appendChild(el);
+  var text = document.createElement("div");
+  text.innerHTML = `yo`;
+  text.style.position = `absolute`;
+  text.style.zIndex = 999999;
+  text.style.fontSize = (((Math.random() * 48) | 0) + 16) + `px`;
+  text.style.left = ((Math.random() * innerWidth) | 0) + `px`;
+  text.style.top = ((Math.random() * (innerHeight + pageYOffset)) | 0) + `px`;
+  document.body.appendChild(text);
 })();
 
 //Continously prints the eggplant emoji to the page. 
 //Easyli replace it with any other emoji or string or number, just put it inside the empty ' ' .
+//Now with more var!
