@@ -10,6 +10,6 @@
   document.body.appendChild(text);
 })();
 
-//Continously prints the eggplant emoji to the page. 
-//Easyli replace it with any other emoji or string or number, just put it inside the empty ' ' .
+//Continously prints whatever to the page. 
+//replace it with any other emoji or string or number, just put it inside the empty ' ' .
 //Now with more var!
